@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22BE7841C8012CF000E3947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7831C8012CF000E3947 /* main.m */; };
+		A22BE7871C8012CF000E3947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7861C8012CF000E3947 /* AppDelegate.m */; };
+		A22BE78A1C8012CF000E3947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7891C8012CF000E3947 /* ViewController.m */; };
+		A22BE78D1C8012CF000E3947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BE78B1C8012CF000E3947 /* Main.storyboard */; };
+		A22BE7901C8012CF000E3947 /* PLISM3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22BE78E1C8012CF000E3947 /* PLISM3.xcdatamodeld */; };
+		A22BE7921C8012CF000E3947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7911C8012CF000E3947 /* Assets.xcassets */; };
+		A22BE7951C8012CF000E3947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7931C8012CF000E3947 /* LaunchScreen.storyboard */; };
+		A22BE7A01C8012CF000E3947 /* PLISM3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE79F1C8012CF000E3947 /* PLISM3Tests.m */; };
+		A22BE7AB1C8012CF000E3947 /* PLISM3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7AA1C8012CF000E3947 /* PLISM3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A22BE79C1C8012CF000E3947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22BE7771C8012CF000E3947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22BE77E1C8012CF000E3947;
+			remoteInfo = PLISM3;
+		};
+		A22BE7A71C8012CF000E3947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22BE7771C8012CF000E3947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22BE77E1C8012CF000E3947;
+			remoteInfo = PLISM3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A22BE77F1C8012CF000E3947 /* PLISM3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLISM3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22BE7831C8012CF000E3947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A22BE7851C8012CF000E3947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A22BE7861C8012CF000E3947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A22BE7881C8012CF000E3947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A22BE7891C8012CF000E3947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A22BE78C1C8012CF000E3947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22BE78F1C8012CF000E3947 /* PLISM3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PLISM3.xcdatamodel; sourceTree = "<group>"; };
+		A22BE7911C8012CF000E3947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22BE7941C8012CF000E3947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A22BE7961C8012CF000E3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BE79B1C8012CF000E3947 /* PLISM3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLISM3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22BE79F1C8012CF000E3947 /* PLISM3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLISM3Tests.m; sourceTree = "<group>"; };
+		A22BE7A11C8012CF000E3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BE7A61C8012CF000E3947 /* PLISM3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLISM3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22BE7AA1C8012CF000E3947 /* PLISM3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLISM3UITests.m; sourceTree = "<group>"; };
+		A22BE7AC1C8012CF000E3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22BE77C1C8012CF000E3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7981C8012CF000E3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7A31C8012CF000E3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22BE7761C8012CF000E3947 = {
+			isa = PBXGroup;
+			children = (
+				A22BE7811C8012CF000E3947 /* PLISM3 */,
+				A22BE79E1C8012CF000E3947 /* PLISM3Tests */,
+				A22BE7A91C8012CF000E3947 /* PLISM3UITests */,
+				A22BE7801C8012CF000E3947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22BE7801C8012CF000E3947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22BE77F1C8012CF000E3947 /* PLISM3.app */,
+				A22BE79B1C8012CF000E3947 /* PLISM3Tests.xctest */,
+				A22BE7A61C8012CF000E3947 /* PLISM3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22BE7811C8012CF000E3947 /* PLISM3 */ = {
+			isa = PBXGroup;
+			children = (
+				A22BE7851C8012CF000E3947 /* AppDelegate.h */,
+				A22BE7861C8012CF000E3947 /* AppDelegate.m */,
+				A22BE7881C8012CF000E3947 /* ViewController.h */,
+				A22BE7891C8012CF000E3947 /* ViewController.m */,
+				A22BE78B1C8012CF000E3947 /* Main.storyboard */,
+				A22BE7911C8012CF000E3947 /* Assets.xcassets */,
+				A22BE7931C8012CF000E3947 /* LaunchScreen.storyboard */,
+				A22BE7961C8012CF000E3947 /* Info.plist */,
+				A22BE78E1C8012CF000E3947 /* PLISM3.xcdatamodeld */,
+				A22BE7821C8012CF000E3947 /* Supporting Files */,
+			);
+			path = PLISM3;
+			sourceTree = "<group>";
+		};
+		A22BE7821C8012CF000E3947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22BE7831C8012CF000E3947 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A22BE79E1C8012CF000E3947 /* PLISM3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A22BE79F1C8012CF000E3947 /* PLISM3Tests.m */,
+				A22BE7A11C8012CF000E3947 /* Info.plist */,
+			);
+			path = PLISM3Tests;
+			sourceTree = "<group>";
+		};
+		A22BE7A91C8012CF000E3947 /* PLISM3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A22BE7AA1C8012CF000E3947 /* PLISM3UITests.m */,
+				A22BE7AC1C8012CF000E3947 /* Info.plist */,
+			);
+			path = PLISM3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22BE77E1C8012CF000E3947 /* PLISM3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22BE7AF1C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3" */;
+			buildPhases = (
+				A22BE77B1C8012CF000E3947 /* Sources */,
+				A22BE77C1C8012CF000E3947 /* Frameworks */,
+				A22BE77D1C8012CF000E3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLISM3;
+			productName = PLISM3;
+			productReference = A22BE77F1C8012CF000E3947 /* PLISM3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A22BE79A1C8012CF000E3947 /* PLISM3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22BE7B21C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3Tests" */;
+			buildPhases = (
+				A22BE7971C8012CF000E3947 /* Sources */,
+				A22BE7981C8012CF000E3947 /* Frameworks */,
+				A22BE7991C8012CF000E3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22BE79D1C8012CF000E3947 /* PBXTargetDependency */,
+			);
+			name = PLISM3Tests;
+			productName = PLISM3Tests;
+			productReference = A22BE79B1C8012CF000E3947 /* PLISM3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A22BE7A51C8012CF000E3947 /* PLISM3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22BE7B51C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3UITests" */;
+			buildPhases = (
+				A22BE7A21C8012CF000E3947 /* Sources */,
+				A22BE7A31C8012CF000E3947 /* Frameworks */,
+				A22BE7A41C8012CF000E3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22BE7A81C8012CF000E3947 /* PBXTargetDependency */,
+			);
+			name = PLISM3UITests;
+			productName = PLISM3UITests;
+			productReference = A22BE7A61C8012CF000E3947 /* PLISM3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22BE7771C8012CF000E3947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = klnet;
+				TargetAttributes = {
+					A22BE77E1C8012CF000E3947 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A22BE79A1C8012CF000E3947 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A22BE77E1C8012CF000E3947;
+					};
+					A22BE7A51C8012CF000E3947 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A22BE77E1C8012CF000E3947;
+					};
+				};
+			};
+			buildConfigurationList = A22BE77A1C8012CF000E3947 /* Build configuration list for PBXProject "PLISM3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22BE7761C8012CF000E3947;
+			productRefGroup = A22BE7801C8012CF000E3947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22BE77E1C8012CF000E3947 /* PLISM3 */,
+				A22BE79A1C8012CF000E3947 /* PLISM3Tests */,
+				A22BE7A51C8012CF000E3947 /* PLISM3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22BE77D1C8012CF000E3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BE7951C8012CF000E3947 /* LaunchScreen.storyboard in Resources */,
+				A22BE7921C8012CF000E3947 /* Assets.xcassets in Resources */,
+				A22BE78D1C8012CF000E3947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7991C8012CF000E3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7A41C8012CF000E3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22BE77B1C8012CF000E3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BE78A1C8012CF000E3947 /* ViewController.m in Sources */,
+				A22BE7871C8012CF000E3947 /* AppDelegate.m in Sources */,
+				A22BE7841C8012CF000E3947 /* main.m in Sources */,
+				A22BE7901C8012CF000E3947 /* PLISM3.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7971C8012CF000E3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BE7A01C8012CF000E3947 /* PLISM3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BE7A21C8012CF000E3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BE7AB1C8012CF000E3947 /* PLISM3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A22BE79D1C8012CF000E3947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22BE77E1C8012CF000E3947 /* PLISM3 */;
+			targetProxy = A22BE79C1C8012CF000E3947 /* PBXContainerItemProxy */;
+		};
+		A22BE7A81C8012CF000E3947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22BE77E1C8012CF000E3947 /* PLISM3 */;
+			targetProxy = A22BE7A71C8012CF000E3947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A22BE78B1C8012CF000E3947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22BE78C1C8012CF000E3947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22BE7931C8012CF000E3947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22BE7941C8012CF000E3947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22BE7AD1C8012CF000E3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A22BE7AE1C8012CF000E3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22BE7B01C8012CF000E3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PLISM3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22BE7B11C8012CF000E3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PLISM3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A22BE7B31C8012CF000E3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PLISM3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLISM3.app/PLISM3";
+			};
+			name = Debug;
+		};
+		A22BE7B41C8012CF000E3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PLISM3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLISM3.app/PLISM3";
+			};
+			name = Release;
+		};
+		A22BE7B61C8012CF000E3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PLISM3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PLISM3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A22BE7B71C8012CF000E3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PLISM3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PLISM3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22BE77A1C8012CF000E3947 /* Build configuration list for PBXProject "PLISM3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BE7AD1C8012CF000E3947 /* Debug */,
+				A22BE7AE1C8012CF000E3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22BE7AF1C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BE7B01C8012CF000E3947 /* Debug */,
+				A22BE7B11C8012CF000E3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A22BE7B21C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BE7B31C8012CF000E3947 /* Debug */,
+				A22BE7B41C8012CF000E3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A22BE7B51C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BE7B61C8012CF000E3947 /* Debug */,
+				A22BE7B71C8012CF000E3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A22BE78E1C8012CF000E3947 /* PLISM3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A22BE78F1C8012CF000E3947 /* PLISM3.xcdatamodel */,
+			);
+			currentVersion = A22BE78F1C8012CF000E3947 /* PLISM3.xcdatamodel */;
+			path = PLISM3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A22BE7771C8012CF000E3947 /* Project object */;
+}
