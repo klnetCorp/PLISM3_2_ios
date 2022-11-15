@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07CB53F7AB3255842DF42771 /* libPods-PLISM3UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72868447A4C6F269614CE9F /* libPods-PLISM3UITests.a */; };
+		1743DCB94A03A503EAE7AA5D /* libPods-PLISM3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE9603B42251C42953881F0 /* libPods-PLISM3.a */; };
+		38202B26C6A358C827ADA912 /* libPods-PLISM3Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE674096026F8E54DBB67212 /* libPods-PLISM3Tests.a */; };
 		A22BE7841C8012CF000E3947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7831C8012CF000E3947 /* main.m */; };
 		A22BE7871C8012CF000E3947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7861C8012CF000E3947 /* AppDelegate.m */; };
 		A22BE78A1C8012CF000E3947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7891C8012CF000E3947 /* ViewController.m */; };
@@ -16,6 +19,36 @@
 		A22BE7951C8012CF000E3947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7931C8012CF000E3947 /* LaunchScreen.storyboard */; };
 		A22BE7A01C8012CF000E3947 /* PLISM3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE79F1C8012CF000E3947 /* PLISM3Tests.m */; };
 		A22BE7AB1C8012CF000E3947 /* PLISM3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7AA1C8012CF000E3947 /* PLISM3UITests.m */; };
+		A22BE7BB1C80293B000E3947 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BE7B91C80293B000E3947 /* MainViewController.m */; };
+		A22BE7BC1C80293B000E3947 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7BA1C80293B000E3947 /* MainViewController.xib */; };
+		A22BE7D31C802D04000E3947 /* m01.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7BE1C802D04000E3947 /* m01.png */; };
+		A22BE7D41C802D04000E3947 /* m01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7BF1C802D04000E3947 /* m01@2x.png */; };
+		A22BE7D51C802D04000E3947 /* m01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C01C802D04000E3947 /* m01@3x.png */; };
+		A22BE7D61C802D04000E3947 /* m02.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C11C802D04000E3947 /* m02.png */; };
+		A22BE7D71C802D04000E3947 /* m02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C21C802D04000E3947 /* m02@2x.png */; };
+		A22BE7D81C802D04000E3947 /* m02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C31C802D04000E3947 /* m02@3x.png */; };
+		A22BE7D91C802D04000E3947 /* m03.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C41C802D04000E3947 /* m03.png */; };
+		A22BE7DA1C802D04000E3947 /* m03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C51C802D04000E3947 /* m03@2x.png */; };
+		A22BE7DB1C802D04000E3947 /* m03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C61C802D04000E3947 /* m03@3x.png */; };
+		A22BE7DC1C802D04000E3947 /* m04.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C71C802D04000E3947 /* m04.png */; };
+		A22BE7DD1C802D04000E3947 /* m04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C81C802D04000E3947 /* m04@2x.png */; };
+		A22BE7DE1C802D04000E3947 /* m04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7C91C802D04000E3947 /* m04@3x.png */; };
+		A22BE7DF1C802D04000E3947 /* m05.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CA1C802D04000E3947 /* m05.png */; };
+		A22BE7E01C802D04000E3947 /* m05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CB1C802D04000E3947 /* m05@2x.png */; };
+		A22BE7E11C802D04000E3947 /* m05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CC1C802D04000E3947 /* m05@3x.png */; };
+		A22BE7E21C802D04000E3947 /* mback.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CD1C802D04000E3947 /* mback.png */; };
+		A22BE7E31C802D04000E3947 /* mback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CE1C802D04000E3947 /* mback@2x.png */; };
+		A22BE7E41C802D04000E3947 /* mback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7CF1C802D04000E3947 /* mback@3x.png */; };
+		A22BE7E51C802D04000E3947 /* mtop.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7D01C802D04000E3947 /* mtop.png */; };
+		A22BE7E61C802D04000E3947 /* mtop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7D11C802D04000E3947 /* mtop@2x.png */; };
+		A22BE7E71C802D04000E3947 /* mtop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22BE7D21C802D04000E3947 /* mtop@3x.png */; };
+		A23FB77B226590E60087D4CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A23FB77A226590E60087D4CD /* GoogleService-Info.plist */; };
+		A23FB77D22659C240087D4CD /* jpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = A23FB77C22659C230087D4CD /* jpp.plist */; };
+		A27810D91CB0D0AF000F168C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27810D81CB0D0AF000F168C /* Images.xcassets */; };
+		A27810DB1CB0D15D000F168C /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = A27810DA1CB0D15D000F168C /* intro.png */; };
+		A27810DE1CB0D33C000F168C /* DataSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = A27810DD1CB0D33C000F168C /* DataSet.mm */; };
+		A2EA270E1C927B1B007A1F23 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA270D1C927B1B007A1F23 /* OpenUDID.m */; };
+		A2EA27181C92CBD7007A1F23 /* authinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2EA27171C92CBD7007A1F23 /* authinfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +69,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E13934AB7D5CEA5BA6A2E8 /* Pods-PLISM3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3UITests/Pods-PLISM3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		062BBFE0560C0BE9E48940B1 /* Pods-PLISM3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3Tests/Pods-PLISM3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D18282FE6CE2764D92985A5 /* Pods-PLISM3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3/Pods-PLISM3.release.xcconfig"; sourceTree = "<group>"; };
+		26069D1C4CBE1D363EE6AFF0 /* Pods-PLISM3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3/Pods-PLISM3.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE9603B42251C42953881F0 /* libPods-PLISM3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLISM3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0A8FD01B8564061B2E453D /* Pods-PLISM3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3Tests/Pods-PLISM3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		72BA18F81031320801C01D7D /* Pods-PLISM3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLISM3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLISM3UITests/Pods-PLISM3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A22BE77F1C8012CF000E3947 /* PLISM3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLISM3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22BE7831C8012CF000E3947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A22BE7851C8012CF000E3947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +93,43 @@
 		A22BE7A61C8012CF000E3947 /* PLISM3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLISM3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22BE7AA1C8012CF000E3947 /* PLISM3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLISM3UITests.m; sourceTree = "<group>"; };
 		A22BE7AC1C8012CF000E3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BE7B81C80293B000E3947 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A22BE7B91C80293B000E3947 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A22BE7BA1C80293B000E3947 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A22BE7BE1C802D04000E3947 /* m01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m01.png; sourceTree = "<group>"; };
+		A22BE7BF1C802D04000E3947 /* m01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m01@2x.png"; sourceTree = "<group>"; };
+		A22BE7C01C802D04000E3947 /* m01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m01@3x.png"; sourceTree = "<group>"; };
+		A22BE7C11C802D04000E3947 /* m02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m02.png; sourceTree = "<group>"; };
+		A22BE7C21C802D04000E3947 /* m02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m02@2x.png"; sourceTree = "<group>"; };
+		A22BE7C31C802D04000E3947 /* m02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m02@3x.png"; sourceTree = "<group>"; };
+		A22BE7C41C802D04000E3947 /* m03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m03.png; sourceTree = "<group>"; };
+		A22BE7C51C802D04000E3947 /* m03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m03@2x.png"; sourceTree = "<group>"; };
+		A22BE7C61C802D04000E3947 /* m03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m03@3x.png"; sourceTree = "<group>"; };
+		A22BE7C71C802D04000E3947 /* m04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m04.png; sourceTree = "<group>"; };
+		A22BE7C81C802D04000E3947 /* m04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m04@2x.png"; sourceTree = "<group>"; };
+		A22BE7C91C802D04000E3947 /* m04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m04@3x.png"; sourceTree = "<group>"; };
+		A22BE7CA1C802D04000E3947 /* m05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m05.png; sourceTree = "<group>"; };
+		A22BE7CB1C802D04000E3947 /* m05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m05@2x.png"; sourceTree = "<group>"; };
+		A22BE7CC1C802D04000E3947 /* m05@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m05@3x.png"; sourceTree = "<group>"; };
+		A22BE7CD1C802D04000E3947 /* mback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mback.png; sourceTree = "<group>"; };
+		A22BE7CE1C802D04000E3947 /* mback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mback@2x.png"; sourceTree = "<group>"; };
+		A22BE7CF1C802D04000E3947 /* mback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mback@3x.png"; sourceTree = "<group>"; };
+		A22BE7D01C802D04000E3947 /* mtop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mtop.png; sourceTree = "<group>"; };
+		A22BE7D11C802D04000E3947 /* mtop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mtop@2x.png"; sourceTree = "<group>"; };
+		A22BE7D21C802D04000E3947 /* mtop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mtop@3x.png"; sourceTree = "<group>"; };
+		A23FB77A226590E60087D4CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A23FB77C22659C230087D4CD /* jpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jpp.plist; sourceTree = "<group>"; };
+		A23FB77E22659CA30087D4CD /* PLISM3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PLISM3.entitlements; sourceTree = "<group>"; };
+		A27810D81CB0D0AF000F168C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A27810DA1CB0D15D000F168C /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
+		A27810DC1CB0D33C000F168C /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		A27810DD1CB0D33C000F168C /* DataSet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataSet.mm; sourceTree = "<group>"; };
+		A2EA270C1C927B1B007A1F23 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		A2EA270D1C927B1B007A1F23 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		A2EA27171C92CBD7007A1F23 /* authinfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = authinfo.plist; sourceTree = "<group>"; };
+		A2EA27191C97E3A6007A1F23 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C72868447A4C6F269614CE9F /* libPods-PLISM3UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLISM3UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE674096026F8E54DBB67212 /* libPods-PLISM3Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLISM3Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1743DCB94A03A503EAE7AA5D /* libPods-PLISM3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38202B26C6A358C827ADA912 /* libPods-PLISM3Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +153,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CB53F7AB3255842DF42771 /* libPods-PLISM3UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EE9762A550B15C7902811AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9603B42251C42953881F0 /* libPods-PLISM3.a */,
+				DE674096026F8E54DBB67212 /* libPods-PLISM3Tests.a */,
+				C72868447A4C6F269614CE9F /* libPods-PLISM3UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A22BE7761C8012CF000E3947 = {
 			isa = PBXGroup;
 			children = (
+				A2EA27191C97E3A6007A1F23 /* WebKit.framework */,
 				A22BE7811C8012CF000E3947 /* PLISM3 */,
 				A22BE79E1C8012CF000E3947 /* PLISM3Tests */,
 				A22BE7A91C8012CF000E3947 /* PLISM3UITests */,
 				A22BE7801C8012CF000E3947 /* Products */,
+				B3EF787EFD8B3AB99919B127 /* Pods */,
+				2EE9762A550B15C7902811AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +196,11 @@
 		A22BE7811C8012CF000E3947 /* PLISM3 */ = {
 			isa = PBXGroup;
 			children = (
+				A23FB77E22659CA30087D4CD /* PLISM3.entitlements */,
+				A23FB77C22659C230087D4CD /* jpp.plist */,
 				A22BE7851C8012CF000E3947 /* AppDelegate.h */,
 				A22BE7861C8012CF000E3947 /* AppDelegate.m */,
+				A23FB77A226590E60087D4CD /* GoogleService-Info.plist */,
 				A22BE7881C8012CF000E3947 /* ViewController.h */,
 				A22BE7891C8012CF000E3947 /* ViewController.m */,
 				A22BE78B1C8012CF000E3947 /* Main.storyboard */,
@@ -112,7 +208,16 @@
 				A22BE7931C8012CF000E3947 /* LaunchScreen.storyboard */,
 				A22BE7961C8012CF000E3947 /* Info.plist */,
 				A22BE78E1C8012CF000E3947 /* PLISM3.xcdatamodeld */,
+				A2EA27081C927AD0007A1F23 /* UDID */,
 				A22BE7821C8012CF000E3947 /* Supporting Files */,
+				A22BE7BD1C802C64000E3947 /* img */,
+				A22BE7B81C80293B000E3947 /* MainViewController.h */,
+				A22BE7B91C80293B000E3947 /* MainViewController.m */,
+				A22BE7BA1C80293B000E3947 /* MainViewController.xib */,
+				A27810DC1CB0D33C000F168C /* DataSet.h */,
+				A27810DD1CB0D33C000F168C /* DataSet.mm */,
+				A2EA27171C92CBD7007A1F23 /* authinfo.plist */,
+				A27810D81CB0D0AF000F168C /* Images.xcassets */,
 			);
 			path = PLISM3;
 			sourceTree = "<group>";
@@ -143,6 +248,57 @@
 			path = PLISM3UITests;
 			sourceTree = "<group>";
 		};
+		A22BE7BD1C802C64000E3947 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A27810DA1CB0D15D000F168C /* intro.png */,
+				A22BE7BE1C802D04000E3947 /* m01.png */,
+				A22BE7BF1C802D04000E3947 /* m01@2x.png */,
+				A22BE7C01C802D04000E3947 /* m01@3x.png */,
+				A22BE7C11C802D04000E3947 /* m02.png */,
+				A22BE7C21C802D04000E3947 /* m02@2x.png */,
+				A22BE7C31C802D04000E3947 /* m02@3x.png */,
+				A22BE7C41C802D04000E3947 /* m03.png */,
+				A22BE7C51C802D04000E3947 /* m03@2x.png */,
+				A22BE7C61C802D04000E3947 /* m03@3x.png */,
+				A22BE7C71C802D04000E3947 /* m04.png */,
+				A22BE7C81C802D04000E3947 /* m04@2x.png */,
+				A22BE7C91C802D04000E3947 /* m04@3x.png */,
+				A22BE7CA1C802D04000E3947 /* m05.png */,
+				A22BE7CB1C802D04000E3947 /* m05@2x.png */,
+				A22BE7CC1C802D04000E3947 /* m05@3x.png */,
+				A22BE7CD1C802D04000E3947 /* mback.png */,
+				A22BE7CE1C802D04000E3947 /* mback@2x.png */,
+				A22BE7CF1C802D04000E3947 /* mback@3x.png */,
+				A22BE7D01C802D04000E3947 /* mtop.png */,
+				A22BE7D11C802D04000E3947 /* mtop@2x.png */,
+				A22BE7D21C802D04000E3947 /* mtop@3x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		A2EA27081C927AD0007A1F23 /* UDID */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA270C1C927B1B007A1F23 /* OpenUDID.h */,
+				A2EA270D1C927B1B007A1F23 /* OpenUDID.m */,
+			);
+			path = UDID;
+			sourceTree = "<group>";
+		};
+		B3EF787EFD8B3AB99919B127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26069D1C4CBE1D363EE6AFF0 /* Pods-PLISM3.debug.xcconfig */,
+				0D18282FE6CE2764D92985A5 /* Pods-PLISM3.release.xcconfig */,
+				062BBFE0560C0BE9E48940B1 /* Pods-PLISM3Tests.debug.xcconfig */,
+				6E0A8FD01B8564061B2E453D /* Pods-PLISM3Tests.release.xcconfig */,
+				72BA18F81031320801C01D7D /* Pods-PLISM3UITests.debug.xcconfig */,
+				01E13934AB7D5CEA5BA6A2E8 /* Pods-PLISM3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A22BE7AF1C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3" */;
 			buildPhases = (
+				A791CF5DCFBF59ED792274D1 /* [CP] Check Pods Manifest.lock */,
 				A22BE77B1C8012CF000E3947 /* Sources */,
 				A22BE77C1C8012CF000E3947 /* Frameworks */,
 				A22BE77D1C8012CF000E3947 /* Resources */,
@@ -167,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A22BE7B21C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3Tests" */;
 			buildPhases = (
+				392E401671F3CE4D8E0BF960 /* [CP] Check Pods Manifest.lock */,
 				A22BE7971C8012CF000E3947 /* Sources */,
 				A22BE7981C8012CF000E3947 /* Frameworks */,
 				A22BE7991C8012CF000E3947 /* Resources */,
@@ -185,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A22BE7B51C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3UITests" */;
 			buildPhases = (
+				28A4F4CC993B778F5363EBEA /* [CP] Check Pods Manifest.lock */,
 				A22BE7A21C8012CF000E3947 /* Sources */,
 				A22BE7A31C8012CF000E3947 /* Frameworks */,
 				A22BE7A41C8012CF000E3947 /* Resources */,
@@ -210,6 +369,19 @@
 				TargetAttributes = {
 					A22BE77E1C8012CF000E3947 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BETFGY29Z7;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A22BE79A1C8012CF000E3947 = {
 						CreatedOnToolsVersion = 7.2;
@@ -226,6 +398,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +419,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27810DB1CB0D15D000F168C /* intro.png in Resources */,
+				A22BE7E51C802D04000E3947 /* mtop.png in Resources */,
+				A22BE7DF1C802D04000E3947 /* m05.png in Resources */,
+				A22BE7D31C802D04000E3947 /* m01.png in Resources */,
+				A23FB77B226590E60087D4CD /* GoogleService-Info.plist in Resources */,
+				A22BE7DC1C802D04000E3947 /* m04.png in Resources */,
+				A22BE7D81C802D04000E3947 /* m02@3x.png in Resources */,
+				A22BE7D61C802D04000E3947 /* m02.png in Resources */,
+				A22BE7DB1C802D04000E3947 /* m03@3x.png in Resources */,
+				A22BE7DA1C802D04000E3947 /* m03@2x.png in Resources */,
+				A2EA27181C92CBD7007A1F23 /* authinfo.plist in Resources */,
+				A27810D91CB0D0AF000F168C /* Images.xcassets in Resources */,
+				A22BE7E61C802D04000E3947 /* mtop@2x.png in Resources */,
+				A22BE7DD1C802D04000E3947 /* m04@2x.png in Resources */,
+				A22BE7E11C802D04000E3947 /* m05@3x.png in Resources */,
 				A22BE7951C8012CF000E3947 /* LaunchScreen.storyboard in Resources */,
+				A22BE7E31C802D04000E3947 /* mback@2x.png in Resources */,
+				A22BE7E21C802D04000E3947 /* mback.png in Resources */,
 				A22BE7921C8012CF000E3947 /* Assets.xcassets in Resources */,
+				A22BE7DE1C802D04000E3947 /* m04@3x.png in Resources */,
+				A22BE7D51C802D04000E3947 /* m01@3x.png in Resources */,
+				A22BE7E71C802D04000E3947 /* mtop@3x.png in Resources */,
+				A22BE7D41C802D04000E3947 /* m01@2x.png in Resources */,
+				A22BE7E41C802D04000E3947 /* mback@3x.png in Resources */,
+				A22BE7D71C802D04000E3947 /* m02@2x.png in Resources */,
+				A22BE7D91C802D04000E3947 /* m03.png in Resources */,
+				A22BE7E01C802D04000E3947 /* m05@2x.png in Resources */,
+				A23FB77D22659C240087D4CD /* jpp.plist in Resources */,
 				A22BE78D1C8012CF000E3947 /* Main.storyboard in Resources */,
+				A22BE7BC1C80293B000E3947 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +468,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A4F4CC993B778F5363EBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLISM3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		392E401671F3CE4D8E0BF960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLISM3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A791CF5DCFBF59ED792274D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLISM3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A22BE77B1C8012CF000E3947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +533,9 @@
 				A22BE78A1C8012CF000E3947 /* ViewController.m in Sources */,
 				A22BE7871C8012CF000E3947 /* AppDelegate.m in Sources */,
 				A22BE7841C8012CF000E3947 /* main.m in Sources */,
+				A2EA270E1C927B1B007A1F23 /* OpenUDID.m in Sources */,
+				A22BE7BB1C80293B000E3947 /* MainViewController.m in Sources */,
+				A27810DE1CB0D33C000F168C /* DataSet.mm in Sources */,
 				A22BE7901C8012CF000E3947 /* PLISM3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,11 +608,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -367,9 +629,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "66bfeb7c-678d-4809-bc08-dbf71fcb5ca2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -391,11 +654,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eunim Tahk (BETFGY29Z7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eunim Tahk (BETFGY29Z7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -404,8 +669,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "66bfeb7c-678d-4809-bc08-dbf71fcb5ca2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -413,28 +680,55 @@
 		};
 		A22BE7B01C8012CF000E3947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26069D1C4CBE1D363EE6AFF0 /* Pods-PLISM3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PLISM3/PLISM3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = BETFGY29Z7;
 				INFOPLIST_FILE = PLISM3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.klnet.ios.plism3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea60b2ff-7b70-45bf-be76-e1bef4bdeff3";
+				PROVISIONING_PROFILE_SPECIFIER = plism3_dev;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A22BE7B11C8012CF000E3947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D18282FE6CE2764D92985A5 /* Pods-PLISM3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PLISM3/PLISM3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = BETFGY29Z7;
 				INFOPLIST_FILE = PLISM3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.klnet.ios.plism3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea60b2ff-7b70-45bf-be76-e1bef4bdeff3";
+				PROVISIONING_PROFILE_SPECIFIER = plism3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A22BE7B31C8012CF000E3947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062BBFE0560C0BE9E48940B1 /* Pods-PLISM3Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PLISM3Tests/Info.plist;
@@ -447,6 +741,7 @@
 		};
 		A22BE7B41C8012CF000E3947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0A8FD01B8564061B2E453D /* Pods-PLISM3Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PLISM3Tests/Info.plist;
@@ -459,6 +754,7 @@
 		};
 		A22BE7B61C8012CF000E3947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BA18F81031320801C01D7D /* Pods-PLISM3UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PLISM3UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -471,6 +767,7 @@
 		};
 		A22BE7B71C8012CF000E3947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E13934AB7D5CEA5BA6A2E8 /* Pods-PLISM3UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PLISM3UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,6 +797,7 @@
 				A22BE7B11C8012CF000E3947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A22BE7B21C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +806,7 @@
 				A22BE7B41C8012CF000E3947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A22BE7B51C8012CF000E3947 /* Build configuration list for PBXNativeTarget "PLISM3UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +815,7 @@
 				A22BE7B71C8012CF000E3947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
