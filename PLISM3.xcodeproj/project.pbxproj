@@ -370,7 +370,7 @@
 					A22BE77E1C8012CF000E3947 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = BETFGY29Z7;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -385,6 +385,8 @@
 					};
 					A22BE79A1C8012CF000E3947 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BETFGY29Z7;
+						ProvisioningStyle = Automatic;
 						TestTargetID = A22BE77E1C8012CF000E3947;
 					};
 					A22BE7A51C8012CF000E3947 = {
@@ -685,9 +687,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = PLISM3/PLISM3.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = BETFGY29Z7;
 				INFOPLIST_FILE = PLISM3/Info.plist;
@@ -697,7 +698,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.klnet.ios.plism3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ea60b2ff-7b70-45bf-be76-e1bef4bdeff3";
-				PROVISIONING_PROFILE_SPECIFIER = plism3_dev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -709,9 +710,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = PLISM3/PLISM3.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = BETFGY29Z7;
 				INFOPLIST_FILE = PLISM3/Info.plist;
@@ -721,7 +721,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.klnet.ios.plism3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ea60b2ff-7b70-45bf-be76-e1bef4bdeff3";
-				PROVISIONING_PROFILE_SPECIFIER = plism3;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -731,10 +731,14 @@
 			baseConfigurationReference = 062BBFE0560C0BE9E48940B1 /* Pods-PLISM3Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BETFGY29Z7;
 				INFOPLIST_FILE = PLISM3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.klnet.plism3.PLISM3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLISM3.app/PLISM3";
 			};
 			name = Debug;

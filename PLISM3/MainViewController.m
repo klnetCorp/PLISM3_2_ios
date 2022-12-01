@@ -129,9 +129,9 @@ static BOOL diagStat2 = NO;
         });
     }
     
-    
+#if DEBUG
     NSLog(@"resultCount : %lu", (unsigned long)resultCount);
-    
+#endif
     
    
     
@@ -151,16 +151,6 @@ static BOOL diagStat2 = NO;
 //            return;
 //        }
 //    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -223,8 +213,9 @@ static BOOL diagStat2 = NO;
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
     NSString *requestString = [[request URL] absoluteString];
+#if DEBUG
     NSLog(@"requestString : %@", requestString);
-
+#endif
 //    if([requestString hasPrefix:@"hybridversion://"]) {
 //        NSArray *jsDataArray = [requestString componentsSeparatedByString:@"hybridversion://"];
 //        NSString *server_version = [jsDataArray objectAtIndex:1];
@@ -264,9 +255,12 @@ static BOOL diagStat2 = NO;
         NSString *jsString1 = [jsDataArray objectAtIndex:0];
         NSString *jsString2 = [jsDataArray objectAtIndex:1];
         
-         NSLog(@"authkeyresult : %@", jsString1);
-         NSLog(@"userid : %@", jsString2);
+#if DEBUG
+        NSLog(@"authkeyresult : %@", jsString1);
+        NSLog(@"userid : %@", jsString2);
+#endif
         [DataSet sharedDataSet].userid = jsString2;
+
         
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -315,16 +309,18 @@ static BOOL diagStat2 = NO;
             [authData writeToFile:path atomically:YES];
             
             authKey = [authData objectForKey:@"auth_key"];
+#if DEBUG
             NSLog(@"authkeydel : %@" , authKey);
-           
+#endif
 
         }
         return NO;
     }  else if ([requestString hasPrefix:@"hybridsetauthkey://"]) {
         NSArray *jsDataArray = [requestString componentsSeparatedByString:@"hybridsetauthkey://"];
         NSString *jsString = [jsDataArray objectAtIndex:1];
-
+#if DEBUG
         NSLog(@"authkeyresult : %@", jsString);
+#endif
         
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -345,13 +341,16 @@ static BOOL diagStat2 = NO;
         [authData writeToFile:path atomically:YES];
         
         authKey = [authData objectForKey:@"auth_key"];
+#if DEBUG
         NSLog(@"authkeyset : %@" , authKey);
+#endif
         return NO;
     }  else if ([requestString hasPrefix:@"hybridlogout://"]) {
         NSArray *jsDataArray = [requestString componentsSeparatedByString:@"hybridlogout://"];
         NSString *jsString = [jsDataArray objectAtIndex:1];
-        
+#if DEBUG
         NSLog(@"logout : %@", jsString);
+#endif
         
         if ([jsString isEqualToString:@"success"]) {
             NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -387,7 +386,9 @@ static BOOL diagStat2 = NO;
         
         if ([jsString isEqualToString:@"ciqapp"]) {
             BOOL isInstalled = [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"mCIQ://"]];
+#if DEBUG
             NSLog(@"isInstalled %d", isInstalled);
+#endif
             if (!isInstalled) {
                 [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"https://itunes.apple.com/app/id1460559150?mt=8"]];
             }
@@ -454,7 +455,9 @@ static BOOL diagStat2 = NO;
     } else {
         constraint_footer_view_height.constant = 52.0f;
         [view_footer setHidden:NO];
+#if DEBUG
         NSLog(@"URL : %@", currentURL);
+#endif
     }
     
     if ([webView01 canGoBack] && range_main.location == NSNotFound) {
@@ -466,7 +469,9 @@ static BOOL diagStat2 = NO;
     if(range_main.location != NSNotFound) {
         if ([DataSet sharedDataSet].pushDict != nil) {
             NSString *recv_id = [[DataSet sharedDataSet].pushDict objectForKey:@"userid"];
+#if DEBUG
             NSLog(@"recv_id : %@",recv_id);
+#endif
             if ([recv_id isEqualToString:[DataSet sharedDataSet].userid]) {
                 [UIApplication sharedApplication].applicationIconBadgeNumber = [UIApplication sharedApplication].applicationIconBadgeNumber - 1;
                 UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"알림" message:[[DataSet sharedDataSet].pushDict objectForKey:@"message"] delegate:self cancelButtonTitle:@"취소" otherButtonTitles:@"확인",nil];
@@ -505,8 +510,9 @@ static BOOL diagStat2 = NO;
     
     NSString *filePath = [docDir stringByAppendingString:@"/jpp.plist"];
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
-    
+#if DEBUG
     NSLog(@"Read APNS Device dict: %@", dict);
+#endif
     if (dict == nil)
     {
         dict = [[NSMutableDictionary alloc] init];
@@ -516,8 +522,9 @@ static BOOL diagStat2 = NO;
     
     if (token == nil)
         token = @"-1";
-    
+#if DEBUG
     NSLog(@"Read APNS Device Token: %@", token);
+#endif
 
     [webView01 stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"javascript:setJPPToken('%@');",token]];
     [webView01 stringByEvaluatingJavaScriptFromString:@"javascript:setJPPUserId();"];
