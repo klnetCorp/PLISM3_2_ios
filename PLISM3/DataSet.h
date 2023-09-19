@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define MAIN_URL @"https://test.plism.com"
-//#define MAIN_URL @"https://www.plism.com"
+//#define MAIN_URL @"https://test.plism.com"
+#define MAIN_URL @"https://www.plism.com"
 //#define MAIN_URL @"http://192.168.2.2:8082"
 
-#define PUSH_URL @"https://testpush.plism.com"
-//#define PUSH_URL @"https://push.plism.com"
+//#define PUSH_URL @"https://testpush.plism.com"
+#define PUSH_URL @"https://push.plism.com"
 
 
 @interface DataSet : NSObject {
