@@ -374,6 +374,11 @@ static BOOL diagStat2 = NO;
             [view_footer setHidden:YES];
             constraint_footer_view_height.constant = 0.0f;
             
+            //[2023.09.19 취약점조치] 캐시데이터 삭제
+            [[NSURLCache sharedURLCache] removeAllCachedResponses];
+            [NSURLCache sharedURLCache].diskCapacity = 0;
+            [NSURLCache sharedURLCache] .memoryCapacity = 0;
+            
             NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/mbl/main/login_auth.jsp",MAIN_URL]] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0f];
             [webView01 loadRequest:request];
             
@@ -659,6 +664,12 @@ static BOOL diagStat2 = NO;
                          @"/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
                          @"/private/var/tmp/cydia.log",
                          @"/private/var/lib/cydia",
+                         @"/Applications/FlyJB.app/FlyJB",
+                         @"/Library/MobileSubstrate/DynamicLibraries/FlyJBX.dylib",
+                         @"/Library/MobileSubstrate/DynamicLibraries/FlyJBX.plist",
+                         @"/usr/lib/FJDobby",
+                         @"/usr/lib/FJHooker.dylib",
+                         @"/var/mobile/Library/Preferences/FJMemory",
                          nil];
     if(!TARGET_IPHONE_SIMULATOR) {
         for (NSString *filePath in checkList) {
